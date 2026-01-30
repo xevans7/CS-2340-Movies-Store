@@ -1,0 +1,46 @@
+.bg-index{
+  background: url("/static/img/background.jpg") no-repeat
+    fixed;
+  background-size: 100% auto;
+}
+.navbar a.nav-link {
+  color: #3FFED7 !important;
+}
+.bg-dark {
+  background-color: rgb(122, 135, 135) !important;
+}
+.ms-footer {
+  background-color: #737373;
+}
+.ms-footer p {
+  color: #a9a9a9;
+  font-size: 13px;
+}
+.ms-footer a:hover {
+  color: #9ce672;
+  text-decoration: none;
+}
+.ms-footer-bottom span{
+  font-size: 13px;
+  line-height: 38px;
+}
+.ms-footer-bottom a {
+  color: #9ce672;
+  text-decoration: none;
+}
+.ms-footer-bottom a:hover {
+  color: #fff;
+}
+.img-card-200 {
+    width: fit-content;
+    max-height: 200px;
+}
+.img-card-400 {
+    width: fit-content;
+    max-height: 400px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0%
+}
