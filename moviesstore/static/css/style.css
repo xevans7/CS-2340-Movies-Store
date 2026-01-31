@@ -1,6 +1,16 @@
 .bg-homepage{
-  background: url("/static/img/background.jpg") no-repeat fixed;
+  background-image: url("/static/img/background.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: local;
   background-size: 100% auto;
+  background-position: center;
+  background-origin: border-box;
+}
+.homepage-banner-text{
+  text-shadow: 1px 1px #857437;
+  text-align: center;
+  color: white;
 }
 .navbar a.nav-link {
   color: #b3a369 !important;
